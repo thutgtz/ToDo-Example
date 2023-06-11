@@ -7,6 +7,6 @@
 # /.env*
 /build
 /.DS_Store
-
+/database
 /src/logs/*/*
 package-lock.json
