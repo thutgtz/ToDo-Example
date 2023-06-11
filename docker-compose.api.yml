@@ -1,0 +1,14 @@
+version: '3'
+services:
+  api:
+    container_name: api-service
+    image: thutgtz/todo-api:uat
+    build:
+      dockerfile: ./api.Dockerfile
+    ports:
+      - '8088:8088'
+    networks:
+      myNetwork:
+
+networks:
+  myNetwork:

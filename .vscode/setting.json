@@ -1,0 +1,14 @@
+{
+    "workbench.colorTheme": "Monokai Dimmed",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "tailwindCSS.experimental.configFile": null,
+    "color-highlight.sass.includePaths": [],
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
+}

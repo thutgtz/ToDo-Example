@@ -1,0 +1,58 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "airbnb-base",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "parserOptions": {
+    "project": ["./tsconfig.json"]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".ts"]
+      }
+    },
+    "import/extensions": [".js", ".ts"],
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts"]
+    }
+  },
+  "rules": {
+    "semi": "off",
+    "indent": "off",
+    "@typescript-eslint/indent": "off",
+    "@typescript-eslint/semi": "off",
+    "no-param-reassign": "off",
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": "variableLike",
+        "leadingUnderscore": "allow",
+        "trailingUnderscore": "allow",
+        "format": ["camelCase", "PascalCase", "UPPER_CASE"]
+      }
+    ],
+    "@typescript-eslint/no-var-requires": "off",
+    "import/no-import-module-exports": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never",
+        "mjs": "never"
+      }
+    ],
+    "lines-between-class-members": "off",
+    "class-methods-use-this": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "no-async-promise-executor": "off",
+    "no-nested-ternary": "off",
+    "import/prefer-default-export": "off"
+  }
+}

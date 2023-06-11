@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 7
+    },
+    "auditLog": "/Users/thutchayasatit/Robinhood_test/src/logs/.f856b01be376da93d626c33fb64f8664f88a0807-audit.json",
+    "files": [
+        {
+            "date": 1686213667923,
+            "name": "/Users/thutchayasatit/Robinhood_test/src/logs/log-2023-06-08.log",
+            "hash": "bda22a31a8aa517419dafd6a6e0fe12c169ed508d38541efd5b65fe8024a9861"
+        },
+        {
+            "date": 1686291991509,
+            "name": "/Users/thutchayasatit/Robinhood_test/src/logs/log-2023-06-09.log",
+            "hash": "51c2245def38ad8bc31c0d9dc1ec9cfdd588f1d61cabd55b21603043d6f0e8f9"
+        },
+        {
+            "date": 1686468494302,
+            "name": "/Users/thutchayasatit/Robinhood_test/src/logs/log-2023-06-11.log",
+            "hash": "4c0b59b2adf363e316f944ebb2ff7f071fbedb10bbda0fbb33c0c37ddab8054b"
+        }
+    ],
+    "hashType": "sha256"
+}
