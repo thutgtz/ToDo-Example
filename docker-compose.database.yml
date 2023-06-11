@@ -3,6 +3,7 @@ services:
   database:
     container_name: sql-database
     build:
+      context: .
       dockerfile: ./database.Dockerfile
     restart: always
     volumes:
