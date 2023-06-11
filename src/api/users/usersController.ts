@@ -46,7 +46,7 @@ class UsersController {
       if (!user) throw new Error('email not found.')
 
       const { password, userId, userName } = user
-      if (!bcrypt.compare(inputPassword, password))
+      if (!(await bcrypt.compare(inputPassword, password)))
         throw new Error('wrong password.')
 
       const accessToken = jsonwebtoken.sign(
