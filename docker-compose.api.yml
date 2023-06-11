@@ -2,7 +2,6 @@ version: '3'
 services:
   api:
     container_name: api-service
-    image: thutgtz/todo-api:uat
     build:
       dockerfile: ./api.Dockerfile
     ports:
